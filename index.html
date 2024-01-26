@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clothify - Elevate Your Style</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="w-[90%] mx-auto">
+      <!-- navbar start -->
+      <div class="md:flex flex-row justify-between my-3">
+        <!-- logo section start -->
+        <div
+          class="flex flex-row cursor-pointer justify-center hover:scale-105 ease-in-out duration-500 transition-all"
+        >
+          <img class="w-9 h-8" src="./shopping-bag_6699332.png" alt="logo" />
+          <h1 class="text-2xl text-purple-500 font-semibo ld italic font-serif">
+            Clothify
+          </h1>
+        </div>
+        <!-- logo section end -->
+
+        <!-- nav option  -->
+        <div class="mt-2 text-center flex-row">
+          <!-- if you want responsiveness add text left-after mt-2 and remove px padding of home button -->
+          <a
+            href="#"
+            class="text-gray-500 font-medium p-1 md:p-4 hover:text-purple-500 transition-all"
+            >Home</a
+          >
+          <a
+            href="#men-1"
+            class="text-gray-500 font-medium p-2 md:p-4 hover:text-purple-500"
+            >Men</a
+          >
+          <a
+            href="#women-2"
+            class="text-gray-500 font-medium p-2 md:p-4 hover:text-purple-500"
+            >Women</a
+          >
+          <a
+            href="#contact-1"
+            class="text-gray-500 font-medium p-2 md:p-4 hover:text-purple-500"
+            >Contact</a
+          >
+          <a
+            href="#"
+            class="bg-purple-600 text-gray-50 hover:bg-purple-800 font-medium p-1 sm:p-2 px-2 sm:px-4 rounded-full transition-all "
+          >
+            <!-- hidden md:inline-block -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 hidden sm:inline-block"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+              />
+            </svg>
+            cart (0)</a
+          >
+        </div>
+      </div>
+      <!-- navbar end -->
+
+      <!-- main section start -->
+      <div class="md:flex md:flex-row mt-20">
+        <div class="md:w-2/5 flex flex-col justify-center pl-3">
+          <h2
+            class="font-serif text-5xl text-gray-600 mb-4 text-center md:text-left"
+          >
+            Elevate Your Wardrobe
+          </h2>
+          <p
+            class="uppercase text-gray-500 tracking-wide mt-1 text-center md:text-left"
+          >
+            Where Fashion Meets Passion
+          </p>
+          <p class="text-gray-600 tracking-wider mb-2 text-center md:text-left">
+            "Style Beyond Boundaries"
+          </p>
+          <a
+            href="#"
+            class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full text-white self-start py-3 px-5 text-sm md:text-lg uppercase hover:shadow-xl transition-all mt-1 text-center mx-auto md:ms-0 mb-5"
+            >Shop Now</a
+          >
+          <!-- <p class="">
+            "Your Style Destination: Where Fashion Meets Elegance and Comfort."
+          </p> -->
+        </div>
+        <!-- this is hero section pic -->
+        <div class="w-4/5 md:w-3/5 p-3 m-auto columns-1">
+          <img src="./Images/hero-img.svg" class="w-full" />
+        </div>
+      </div>
+      <!-- main section end -->
+
+      <!-- MEN collection heading -->
+      <div class="my-16" id="men-1">
+        <div class="flex flex-row justify-between mb-8">
+          <h2 class="text-3xl">Men's Collection</h2>
+          <a
+            href=""
+            class="text-xl flex flex-row text-gray-700 hover:text-black hover:scale-105 ease-in-out duration-500 transition-all mt-2"
+            >View all
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-7 ml-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </a>
+        </div>
+        <!-- men collection ALL -->
+        <div
+          class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8"
+        >
+          <div class="shadow-xl rounded-xl mb-1">
+            <a href="#">
+              <img
+                src="./Images/men/product1.jpg"
+                alt=""
+                class="rounded-tl-xl rounded-tr-xl"
+              />
+            </a>
+            <div class="p-3">
+              <h3><a href="">Men Solid T-shirt</a></h3>
+              <div class="flex flex-row">
+                <div class="bg-black h-4 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-blue-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div class="bg-amber-100 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-red-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div
+                  class="bg-green-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 rounded-md text-xs py-2 px-4 mr-1"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  S
+                </div>
+              </div>
+              <div
+                class="flex flex-col lg:flex-row justify-between text-center"
+              >
+                <!-- first button -->
+                <a
+                  href="#"
+                  class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 hover:from-pink-600 hover:to-pink-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-4 mr-1"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    /></svg
+                  >buy
+                </a>
+                <!-- second button -->
+                <a
+                  href="#"
+                  class="bg-purple-500 text-gray-50 hover:bg-purple-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center mt-1 lg:mt-0"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    /></svg
+                  >Wishlist
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- first men tshirt card upperside -->
+          <div class="shadow-xl rounded-xl">
+            <a href="#">
+              <img
+                src="./Images/men/product2.jpg"
+                alt=""
+                class="rounded-tl-xl rounded-tr-xl"
+              />
+            </a>
+            <div class="p-3">
+              <h3><a href="">Slim Khaki Tousers</a></h3>
+              <div class="flex flex-row">
+                <div class="bg-black h-4 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-blue-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div class="bg-amber-100 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-red-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div
+                  class="bg-green-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col lg:flex-row justify-between">
+                <!-- first button -->
+                <a
+                  href="#"
+                  class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 hover:from-pink-600 hover:to-pink-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-4 mr-1"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    /></svg
+                  >buy
+                </a>
+                <!-- second button -->
+                <a
+                  href="#"
+                  class="bg-purple-500 text-gray-50 hover:bg-purple-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center mt-1 lg:mt-0"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    /></svg
+                  >Wishlist
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-xl rounded-xl">
+            <a href="#">
+              <img
+                src="./Images/men/product3-removebg-preview.png"
+                alt=""
+                class="rounded-tl-xl rounded-tr-xl"
+              />
+            </a>
+            <div class="p-3">
+              <h3><a href="">Nike Shoes</a></h3>
+              <div class="flex flex-row">
+                <div class="bg-black h-4 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-blue-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div class="bg-amber-100 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-red-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div
+                  class="bg-green-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col lg:flex-row justify-between">
+                <!-- first button -->
+                <a
+                  href="#"
+                  class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 hover:from-pink-600 hover:to-pink-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-4 mr-1"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    /></svg
+                  >buy
+                </a>
+                <!-- second button -->
+                <a
+                  href="#"
+                  class="bg-purple-500 text-gray-50 hover:bg-purple-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center mt-1 lg:mt-0"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    /></svg
+                  >Wishlist
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-xl rounded-xl">
+            <a href="#">
+              <img
+                src="./Images/men/product4.jpg"
+                alt=""
+                class="rounded-tl-xl rounded-tr-xl"
+              />
+            </a>
+            <div class="p-3">
+              <h3><a href="">Lorus Casual Watch</a></h3>
+              <div class="flex flex-row">
+                <div class="bg-black h-4 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-blue-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div class="bg-amber-100 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-red-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div
+                  class="bg-green-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col lg:flex-row justify-between">
+                <!-- first button -->
+                <a
+                  href="#"
+                  class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 hover:from-pink-600 hover:to-pink-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-4 mr-1"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    /></svg
+                  >buy
+                </a>
+                <!-- second button -->
+                <a
+                  href="#"
+                  class="bg-purple-500 text-gray-50 hover:bg-purple-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center mt-1 lg:mt-0"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    />
+                  </svg>
+                  Wishlist
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Women collction heading -->
+      <div class="my-16" id="women-2">
+        <div class="flex flex-row justify-between mb-8">
+          <h2 class="text-3xl">Women's Collection</h2>
+          <a
+            href=""
+            class="text-xl flex flex-row text-gray-700 hover:text-black hover:scale-105 ease-in-out duration-500 transition-all mt-2"
+            >View all
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-7 ml-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </a>
+        </div>
+        <!-- women collection ALL -->
+        <div
+          class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8"
+        >
+          <div class="shadow-xl rounded-xl mb-1">
+            <a href="#">
+              <img
+                src="./Images/women/product1.jpg"
+                alt=""
+                class="rounded-tl-xl rounded-tr-xl"
+              />
+            </a>
+            <div class="p-3">
+              <h3><a href="">V-Neck Tassel Cape</a></h3>
+              <div class="flex flex-row">
+                <div class="bg-black h-4 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-blue-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div class="bg-amber-100 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-red-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div
+                  class="bg-green-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  S
+                </div>
+              </div>
+              <div
+                class="flex flex-col lg:flex-row justify-between text-center"
+              >
+                <!-- first button -->
+                <a
+                  href="#"
+                  class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 hover:from-pink-600 hover:to-pink-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-4 mr-1"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    /></svg
+                  >buy
+                </a>
+                <!-- second button -->
+                <a
+                  href="#"
+                  class="bg-purple-500 text-gray-50 hover:bg-purple-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center mt-1 lg:mt-0"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    /></svg
+                  >Wishlist
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- first women card upperside -->
+          <div class="shadow-xl rounded-xl">
+            <a href="#">
+              <img
+                src="./Images/women/product2.jpg"
+                alt=""
+                class="rounded-tl-xl rounded-tr-xl"
+              />
+            </a>
+            <div class="p-3">
+              <h3><a href="">Printed Red Dress</a></h3>
+              <div class="flex flex-row">
+                <div class="bg-black h-4 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-blue-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div class="bg-amber-100 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-red-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div
+                  class="bg-green-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col lg:flex-row justify-between">
+                <!-- first button -->
+                <a
+                  href="#"
+                  class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 hover:from-pink-600 hover:to-pink-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-4 mr-1"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    /></svg
+                  >buy
+                </a>
+                <!-- second button -->
+                <a
+                  href="#"
+                  class="bg-purple-500 text-gray-50 hover:bg-purple-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center mt-1 lg:mt-0"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    /></svg
+                  >Wishlist
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-xl rounded-xl">
+            <a href="#">
+              <img
+                src="./Images/women/product3-removebg-preview (1).png"
+                alt=""
+                class="rounded-tl-xl rounded-tr-xl"
+              />
+            </a>
+            <div class="p-3">
+              <h3><a href="">Blue Denim Dress</a></h3>
+              <div class="flex flex-row">
+                <div class="bg-black h-4 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-blue-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div class="bg-amber-100 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-red-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div
+                  class="bg-green-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col lg:flex-row justify-between">
+                <!-- first button -->
+                <a
+                  href="#"
+                  class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 hover:from-pink-600 hover:to-pink-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-4 mr-1"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    /></svg
+                  >buy
+                </a>
+                <!-- second button -->
+                <a
+                  href="#"
+                  class="bg-purple-500 text-gray-50 hover:bg-purple-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center mt-1 lg:mt-0"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    /></svg
+                  >Wishlist
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-xl rounded-xl">
+            <a href="#">
+              <img
+                src="./Images/women/product4-removebg-preview.png"
+                alt=""
+                class="rounded-tl-xl rounded-tr-xl"
+              />
+            </a>
+            <div class="p-3">
+              <h3><a href="">High Waist Denim Skirt</a></h3>
+              <div class="flex flex-row">
+                <div class="bg-black h-4 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-blue-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div class="bg-amber-100 w-4 rounded-full shadow-md mr-1"></div>
+                <div
+                  class="bg-red-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+                <div
+                  class="bg-green-600 h-4 w-4 rounded-full shadow-md mr-1"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 rounded-md text-sm py-2 px-4 mr-1"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col lg:flex-row justify-between">
+                <!-- first button -->
+                <a
+                  href="#"
+                  class="bg-gradient-to-r from-red-600 to-pink-500 text-gray-50 hover:from-pink-600 hover:to-pink-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-4 mr-1"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    /></svg
+                  >buy
+                </a>
+                <!-- second button -->
+                <a
+                  href="#"
+                  class="bg-purple-500 text-gray-50 hover:bg-purple-600 hover:transition-all py-2 px-4 rounded-full mr-2 flex flex-row justify-center mt-1 lg:mt-0"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    />
+                  </svg>
+                  Wishlist
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- women clothe section-end  here-->
+      <div class="flex flex-row my-20 rounded-lg shadow-lg">
+        <!-- newsletter section -->
+        <div id="contact-1"
+          class="lg:w-3/5 w-full bg-gradient-to-r from-slate-900 to-purple-600 lg:from-slate-900 lg:via-purple-700 lg:to-transparent rounded-lg text-gray-50 p-12"
+        >
+          <div class="lg:w-2/3">
+            <h3 class="text-2xl font-bold mb-6">
+              Subscribe to get our offers first
+            </h3>
+            <p class="leading-relaxed mb-3">
+              Want to hear from us when we have new offers? Sign up for our
+              newsletter and we'll email you every time we have new sale offers.
+            </p>
+            <input
+              type="email"
+              placeholder="Enter email address"
+              class="px-8 py-3 rounded-xl focus:outline-none bg-gray-600 placeholder:text-gray-400 text-gray-100 mb-3 w-full"
+            />
+            <button
+              class="bg-red-600 hover:bg-red-700 hover:text-white transition-all rounded-lg w-full py-2"
+              type="submit"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+        <div class="w-2/5 hidden lg:flex lg:flex-row">
+          <img src="./Images/subscribe-banner.png" class="h-96" alt="" />
+        </div>
+      </div>
+      <!-- footer section start -->
+      <div class="border-t-2 border-gray-300 flex flex-col md:flex-row text-center md:justify-between py-5 text-sm">
+        <div class="mb-3">
+          <a href="#" class="mx-2.5">About</a>
+          <a href="#" class="mx-2.5">Privacy Policy</a>
+          <a href="#" class="mx-2.5">Term and conditions</a>
+        </div>
+        <p class="mx-2.5">In case of any concern, <b><a href="" class="text-blue-600 ">Contact Us</a></b></p>
+      </div>
+      <!-- footer section-end here -->
+    </div>
+  </body>
+</html>
